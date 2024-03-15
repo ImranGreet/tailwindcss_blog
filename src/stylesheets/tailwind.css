@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .reply-btn {
+    @apply text-xl tracking-wider leading-7 font-semibold text-indigo-600 flex gap-x-2 items-center;
+  }
+  .reply-btn-icon  {
+  @apply flex justify-center items-center font-black text-base sm:text-xl;
+  }
+  .profile-container{
+    @apply flex justify-start sm:justify-center items-start sm:items-center self-start;
+  }
+  .profile-image{
+    @apply w-10 h-10 rounded-full object-center; 
+  }
+
+  .increase_decrease_btn{
+    @apply text-xl text-gray-600/20 font-black;
+  }
+  .profile-container_parent{
+     @apply flex flex-col sm:flex-row justify-center items-center gap-x-3 sm:gap-x-4 text-start mb-3 sm:mb-0; 
+  }
+  
+}
