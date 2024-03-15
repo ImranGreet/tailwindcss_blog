@@ -1,0 +1,14 @@
+{
+  "name": "csxsx-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compose": "npx tailwindcss -i ./src/stylesheets/tailwind.css -o ./src/stylesheets/style.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
